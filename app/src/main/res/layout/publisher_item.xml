@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="700dp"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+    <ImageView
+        android:id="@+id/publisher_image"
+        android:layout_width="150dp"
+        android:layout_height="700dp"
+        android:src="@drawable/editorial_ejemplo"
+        android:layout_gravity="center_horizontal"/>
+    <!--<TextView
+        android:layout_marginTop="10sp"
+        android:id="@+id/publisher_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_de_la_editorial"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+    -->
+</LinearLayout>
