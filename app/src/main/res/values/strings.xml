@@ -3,6 +3,6 @@
     <string name="correo">Correo Electrónico</string>
     <string name="contrasena">Contraseña</string>
     <string name="login">Login</string>
-    <string name="editoriales">Editoriales</string>
+    <string name="editoriales">EDITORIALES</string>
     <string name="nombre_de_la_editorial">Nombre de la editorial</string>
 </resources>

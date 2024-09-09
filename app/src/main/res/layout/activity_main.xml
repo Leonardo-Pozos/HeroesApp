@@ -9,22 +9,35 @@
     android:padding="15dp"
     android:background="@drawable/login_img">
 
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139"
+        app:tint="@color/white" />
+
     <EditText
-        android:textColorHint="@color/white"
-        android:textColor="@color/white"
         android:id="@+id/emailEntry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints="emailAddress"
         android:hint="@string/correo"
         android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.458"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:autofillHints="password"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:inputType="textPassword"

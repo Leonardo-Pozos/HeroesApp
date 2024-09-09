@@ -27,7 +27,6 @@ class HeroeAdapter(val heroes: List<Heroe>, val onClick: (Heroe) -> Unit): Recyc
 
     override fun onBindViewHolder(holder: HeroeViewHolder, position: Int) {
         val heroe = heroes[position]
-        holder.heroeName.text = heroe.name
         Picasso.get().load(heroe.img).into(holder.heroeImage)
 
         holder.itemView.setOnClickListener{
@@ -40,5 +39,4 @@ class HeroeAdapter(val heroes: List<Heroe>, val onClick: (Heroe) -> Unit): Recyc
 
 class HeroeViewHolder(view: View): ViewHolder(view){
     val heroeImage: ImageView = view.findViewById(R.id.heroe_image)
-    val heroeName: TextView = view.findViewById(R.id.heroe_name)
 }

@@ -38,7 +38,7 @@ class PublisherActivity : AppCompatActivity(){
             }
             startActivity(intent)
         }
-        publishersRecyclerView.layoutManager = LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false)
+        publishersRecyclerView.layoutManager = GridLayoutManager(this, 1)
         logoutBtn.setOnClickListener {
             val editor = sharedPreferences.edit()
             editor.remove("isLogged")
