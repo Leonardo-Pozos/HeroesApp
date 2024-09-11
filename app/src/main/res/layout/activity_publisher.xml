@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="ui.PublisherActivity"
     android:padding="20dp"
-    android:background="@drawable/login_img">
+    android:background="@drawable/prueba">
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:src="@drawable/user_log"
-            app:tint="@color/white"/>
+            app:tint="@color/black"/>
 
         <TextView
             android:id="@+id/usernameTV"
@@ -34,7 +34,7 @@
             android:text="Bienvenido Leo"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:paddingLeft="10dp"/>
 
         <Space
@@ -47,7 +47,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:src="@drawable/logout"
-            app:tint="@color/white" />
+            app:tint="@color/black" />
 
     </LinearLayout>
 
@@ -55,7 +55,7 @@
         android:id="@+id/editorialesTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:text="@string/editoriales"
         android:textAlignment="center"
         android:textSize="28sp"
